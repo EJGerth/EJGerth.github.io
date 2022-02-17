@@ -1,0 +1,19 @@
+p {
+  color:red;
+  text-align: center;
+}
+/*always use unique ID tags*/
+#test-id-1 {
+  font-style: normal;
+  color: purple;
+  text-shadow: 20px 10px 1px pink;
+}
+.test-class {
+  font-style: italic;
+  color: blue;
+  text-shadow: 20px 10px 1px pink;
+}
+h1 {
+  color:green;
+  font-size: 300%;
+}
