@@ -1,0 +1,57 @@
+body {
+  background-color: lightgreen;
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-style: oblique;
+
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
+
+}
+
+h5 {
+  font-family: Helvetica, sans-serif;
+}
+
+h6 {
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+a {
+  font-family: Georgia, serif;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+}
+iframe {
+  width: 50%;
+  height: auto;
+}
+hr {
+  height: 2px;
+  background-color: black;
+}
+li {
+  padding: 5px;
+}
+
+img {
+  border-radius: 8px;
+}
