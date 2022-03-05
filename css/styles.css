@@ -2,8 +2,9 @@ body {
   background-color: lightgreen;
 }
 h1 {
-  font-family: Helvetica, sans-serif;
-  font-weight: 600;
+  font-family: eckmannpsych-medium,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
@@ -31,7 +32,9 @@ h6 {
 }
 
 p {
-  font-family: Georgia, serif;
+font-family: georgia; serif;
+font-weight: 400;
+font-style: normal;
 }
 
 a {
@@ -54,4 +57,26 @@ li {
 
 img {
   border-radius: 8px;
+}
+
+iframe {
+  height: inherit;
+  width: height;
+}
+
+@media screen and (min-width 400px) {
+  .title {
+    background-color: red;
+    padding: 20px;
+  }
+  .soundCloudContent {
+  }
+  iframe {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width 399px) {
+
 }
