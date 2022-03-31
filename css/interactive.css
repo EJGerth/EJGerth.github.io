@@ -1,0 +1,17 @@
+button {
+  font-family: walnut,sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  transition: all 1000ms ease-in-out;
+}
+
+
+.was-clicked {
+  padding: 20px;
+  color: rebeccapurple;
+}
+
+.was-hovered {
+  padding: 50px;
+  color: green;
+}
