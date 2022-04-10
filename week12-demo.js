@@ -26,3 +26,12 @@ function displayQuote(quote) {
 const endpoint = 'https://api.quotable.io/random'
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
+
+shareButton.addEventListener("click", async () => {
+  try {
+    await navigator.share({ title: "Example Page", url: "" });
+    console.log("Data was shared successfully");
+  } catch (err) {
+    console.error("Share failed:", err.message);
+  }
+});
