@@ -29,7 +29,7 @@ quoteButton.addEventListener('click', getQuote);
 
 shareButton.addEventListener("click", async () => {
   try {
-    await navigator.share({ title: "Example Page", url: "" });
+    await navigator.share({ title: "Example Page", url: "week12-demo.html" });
     console.log("Data was shared successfully");
   } catch (err) {
     console.error("Share failed:", err.message);
